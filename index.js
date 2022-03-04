@@ -31,14 +31,6 @@ label.addEventListener("click",event=>{
    
 })
  
-// console.log("Hello world:before resolve");
-// const feed=()=>{
-//   return new Promise((resolve,reject)=>{ 
-//     resolve("I am resolved.")
-//   })
-// }
-// feed().then(data=>console.log(data));
-// console.log("Hello world:after resolve");   
 
 
 
