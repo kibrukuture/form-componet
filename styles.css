@@ -1,0 +1,60 @@
+body{
+  display:grid;
+  place-content:center;
+  height:100vh;
+  background:black;
+}
+div{
+  display:flex;
+  flex-direction:column;
+  position:relative; 
+  background:white;
+  width:400px; 
+}
+input,label{
+  display:block;
+}
+label{ 
+  color:grey;
+  position:absolute;  
+  top:40%;
+  left:5px;
+  z-index:1;
+  cursor:text;
+  
+}        
+input{
+  outline:none; 
+  width:100%;
+  border:none;
+  padding:25px  10px 0px 10px  ;
+  border-bottom:4px solid grey ; 
+  font-family:Roboto;
+  font-size:1.1rem;
+  
+}
+
+@keyframes moveup{
+  
+  from{
+    top:40%;
+    left:5px;
+  }
+  to{
+     top:0px;
+    left:5px;
+  }
+  
+}
+
+@keyframes movedown{
+  from{
+    top:0px;
+    left:5px;
+  }
+  to{
+     top:40%;
+    left:5px;
+  }
+  
+}
